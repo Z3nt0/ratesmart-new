@@ -1,43 +1,10 @@
-<div class="landing-page">
-    <header class="landing-header">
-      <div class="logo">
-        <h1>{{ title }}</h1>
-      </div>
-      <nav class="navigation">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-  
-    <section class="hero">
-      <div class="hero-content">
-        <h2>Welcome to RateSmart</h2>
-        <p>Your feedback solution, made simple.</p>
-        <button pButton type="button" label="Get Started" class="p-button-rounded p-button-outlined"></button>
-      </div>
-    </section>
-  
-    <section class="features">
-      <div class="feature">
-        <h3>Easy to Use</h3>
-        <p>Our platform is designed with user-friendliness in mind.</p>
-      </div>
-      <div class="feature">
-        <h3>Real-Time Feedback</h3>
-        <p>Collect feedback from your users instantly and easily.</p>
-      </div>
-      <div class="feature">
-        <h3>Data Insights</h3>
-        <p>Gain insights from real-time analytics and reporting.</p>
-      </div>
-    </section>
-  
-    <footer class="landing-footer">
-      <p>&copy; 2024 RateSmart. All rights reserved.</p>
-    </footer>
+<div class="landing-container">
+  <div class="logo">
+      <span class="rate">RATE</span><span class="smart">SMART</span>
   </div>
   
+  <div class="button-group">
+      <button pButton label="Sign Up" class="p-button-rounded p-button-secondary signup-button" routerLink="/sign-up"></button>
+      <button pButton label="Login" class="p-button-rounded p-button-success login-button" routerLink="/log-in"></button>
+  </div>
+</div>

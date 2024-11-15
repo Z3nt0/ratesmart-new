@@ -1,0 +1,18 @@
+<div class="code-verification-container">
+    <button class="back-button" routerLink="/forgot-password">
+        <span>&larr;</span>
+    </button>
+    <h2>Code Verification</h2>
+    <p>Enter One Time Code sent on your email</p>
+    <span class="email-mask">k***&#64;gmail.com</span> <!-- Use &#64; for @ symbol -->
+    
+    <div class="code-input-group">
+        <input pInputText maxlength="1" [(ngModel)]="code[0]" />
+        <input pInputText maxlength="1" [(ngModel)]="code[1]" />
+        <input pInputText maxlength="1" [(ngModel)]="code[2]" />
+        <input pInputText maxlength="1" [(ngModel)]="code[3]" />
+        <input pInputText maxlength="1" [(ngModel)]="code[4]" />
+        <input pInputText maxlength="1" [(ngModel)]="code[5]" />
+    </div>
+
+    <button pButton label="Verify Code" class="p-button-rounded p-button-success verify-button" routerLink="/new-password"></button>

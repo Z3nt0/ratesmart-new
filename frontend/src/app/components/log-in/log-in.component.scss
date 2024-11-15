@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 20px;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px; // Increased to position logo higher
+    line-height: 0.9; // Reduces spacing between RATE and SMART
+}
+
+.rate {
+    color: #2d6936; // Original color for RATE
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: -10px; // Adjusts spacing between RATE and SMART
+}
+
+.smart {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    -webkit-text-stroke: 1px #2d6936; // Stroke color for SMART
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    color: #5DB075; // Updated green color
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[pInputText] {
+    padding: 8px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.forgot-link {
+    display: block;
+    text-align: left; // Aligned to the left side
+    margin-top: -10px; // Adjusted position under the password field
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem; // Slightly smaller text
+}
+
+.reset {
+    color: #5DB075; // Updated green color
+    text-decoration: underline;
+}
+
+.login-button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #5DB075; // Updated green color
+    border-color: #5DB075; // Updated green color
+    font-family: 'Poppins', sans-serif;
+}
+
+.signup-link {
+    margin-top: 10px;
+    text-align: center;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.signup-link a {
+    color: #5DB075; // Updated green color
+    text-decoration: underline;
+}

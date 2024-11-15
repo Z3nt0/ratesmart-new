@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="logo">
+      <span class="rate">RATE</span><span class="smart">SMART</span>
+  </div>
+
+  <div class="card">
+      <div class="form-group">
+          <label for="username">Username</label>
+          <input 
+              pInputText
+              id="username" 
+              placeholder="Username"
+              [(ngModel)]="username"
+              aria-describedby="username-help" 
+          />
+      </div>
+
+      <div class="form-group">
+          <label for="password">Password</label>
+          <input 
+              pInputText 
+              id="password" 
+              type="password" 
+              placeholder="Password"
+              [(ngModel)]="password"
+          />
+      </div>
+
+      <a routerLink="/forgot-password" class="forgot-link">Forgot Password? <span class="reset">Reset</span></a>
+
+
+      <button pButton label="Log In" class="p-button-rounded p-button-success login-button"></button>
+
+      <div class="signup-link">
+          New? <a routerLink="/sign-up">Sign up</a>
+      </div>
+  </div> <!-- Closing the card div here -->
+</div> <!-- Closing the container div here -->

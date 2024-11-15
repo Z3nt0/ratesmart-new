@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; // Centers the content vertically in the middle
+    height: 100vh;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    line-height: 0.9;
+}
+
+.rate {
+    color: #2d6936;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.smart {
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-stroke: 1px #2d6936;
+}
+
+.form-group {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #5DB075;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 0.875rem;
+}
+
+input[pInputText] {
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.sign-up-button {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    background-color: #5DB075;
+    border-color: #5DB075;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.login-link {
+    margin-top: 20px;
+    font-size: 0.875rem;
+    color: #333;
+}
+
+.login-link a {
+    color: #5DB075;
+    text-decoration: none;
+    font-weight: normal;  /* Remove bold font */
+}
+
